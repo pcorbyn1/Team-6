@@ -21,4 +21,7 @@ public class Doctor {
         return specialty;
     }
 
+    public String toString(){
+        return "Dr. " + name + ", ID#: " + DOCTOR_ID;
+    }
 }
