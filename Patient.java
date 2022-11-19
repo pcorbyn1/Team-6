@@ -61,4 +61,8 @@ public class Patient {
     public Doctor getAssignedDoctor(){
         return assignedDoctor;
     }
+    
+    public String toString() {
+    	return "Patient ID: "+PATIENT_ID+"Patient name: "+name+".";
+    }
 }
