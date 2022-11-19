@@ -22,4 +22,43 @@ public class Patient {
         assignedDoctor = doctorIn;
     }
 
+    public int getPatientID(){
+        return PATIENT_ID;
+    }
+
+    public String getPatientName(){
+        return name;
+    }
+
+    public String getPatientTitle(){
+        return title;
+    }
+
+    public String getPatientDOB(){
+        return DOB;
+    }
+
+    public String getEmergencyContact(){
+        return emergencyContact;
+    }
+
+    public String getDateOfArrival(){
+        return doa;
+    }
+
+    public String getPatientPhoneNumber(){
+        return phoneNumber;
+    }
+
+    public Hospital getPatientHospital(){
+        return hospitalLocation;
+    }
+
+    public int getRoomNumber(){
+        return roomNum;
+    }
+
+    public Doctor getAssignedDoctor(){
+        return assignedDoctor;
+    }
 }
