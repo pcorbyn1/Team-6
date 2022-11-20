@@ -63,6 +63,14 @@ public class Patient {
     }
     
     public String toString() {
-    	return "Patient ID: "+PATIENT_ID+"Patient name: "+name+".";
+    	return "Patient ID: "+PATIENT_ID+
+		"\nPatient name: "+name+
+		"\nDOB: "+DOB+
+		"\nEmergency contact: "+emergencyContact+
+		"\nDate of arrival: "+doa+
+		"\nPhone number: "+phoneNumber+
+		"\nHospital: "+hospitalLocation+
+		"\nRoom number: "+roomNum+
+		"\nAssgined doctor: "+assignedDoctor+"";
     }
 }
